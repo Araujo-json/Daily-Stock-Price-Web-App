@@ -1,0 +1,28 @@
+table,th,td,tr{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px 15px 0px 15px;
+    margin: auto;
+}
+table th{
+    font-family: Lato-Bold;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+    background-color: #6c7ae0;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+h1{
+    text-align: center
+}
+body{
+    text-align: center;
+}
